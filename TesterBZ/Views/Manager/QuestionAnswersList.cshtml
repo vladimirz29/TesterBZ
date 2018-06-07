@@ -1,0 +1,49 @@
+﻿@model TesterBZ.Models.QuestionAnswersViewModel
+@{
+    ViewBag.Title = "Список ответов на вопрос";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2><a class="glyphicon glyphicon-backward btn btn-success" href="@(Url.Action("EditTest",new { id=Model.TestId }))"></a> @ViewBag.Title</h2>
+        <div class="text-center">
+            @if (Model.QuestionName != null)
+            {
+                <h3>@(Model.QuestionName)</h3>
+            }
+            @if (Model.QuestionImage!=null)
+            {
+                <img src="@Model.QuestionImage" style="max-width:600px; max-height:300px;"/>
+            }
+            <hr />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3>Ответы <a href="@(Url.Action("AddAnswer",new { questionId=Model.QuestionId }))"><span class="glyphicon glyphicon-plus btn"></span></a></h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Текст вопроса</th>
+                    <th>Изображение</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int iterator = 1; }
+                @foreach (var item in Model.QuestionAnswers)
+                {
+                    <tr>
+                        <td>@(iterator++)</td>
+                        <td>@item.AnswerText</td>
+                        <td><img src="@item.AnswerImage" style="max-width:200px; max-height:120px;" /></td>
+                        <td><a href="@(Url.Action("RemoveAnswer",new { id=item.AnswerId }))"><span class="glyphicon glyphicon-list btn btn-primary" title="Удалить"></span></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

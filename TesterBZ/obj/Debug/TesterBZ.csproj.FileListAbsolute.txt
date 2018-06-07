@@ -1,0 +1,410 @@
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ApplicationInsights.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\TesterBZ.dll.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\TesterBZ.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\TesterBZ.pdb
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\csc.exe
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\csc.exe.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\csc.rsp
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\csi.exe
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\csi.exe.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\csi.rsp
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.AppContext.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Console.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.IO.Compression.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.IO.Pipes.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.Claims.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Threading.Thread.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.ValueTuple.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\vbc.exe
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\vbc.exe.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\vbc.rsp
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\VBCSCompiler.exe
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Antlr3.Runtime.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\EntityFramework.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\EntityFramework.SqlServer.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.Web.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Newtonsoft.Json.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Owin.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Helpers.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Mvc.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Optimization.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Razor.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.WebPages.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.WebPages.Razor.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\TesterBZDomainModel.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\WebGrease.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\TesterBZDomainModel.pdb
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\TesterBZDomainModel.dll.config
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Helpers.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Mvc.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Optimization.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.Razor.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.WebPages.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Web.WebPages.Razor.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Newtonsoft.Json.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Antlr3.Runtime.pdb
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\EntityFramework.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\EntityFramework.SqlServer.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.AI.Web.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.Razor.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\EntityFramework.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csprojResolveAssemblyReference.cache
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\obj\Debug\TesterBZ.dll
+C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZ\obj\Debug\TesterBZ.pdb
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ApplicationInsights.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\TesterBZ.dll.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\TesterBZ.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\TesterBZ.pdb
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\csc.exe
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\csc.exe.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\csc.rsp
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\csi.exe
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\csi.exe.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\csi.rsp
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.AppContext.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Console.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.IO.Compression.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.IO.Pipes.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.Claims.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Threading.Thread.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.ValueTuple.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\vbc.exe
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\vbc.exe.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\vbc.rsp
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\VBCSCompiler.exe
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Antlr3.Runtime.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\EntityFramework.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\EntityFramework.SqlServer.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.Web.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Newtonsoft.Json.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Owin.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Helpers.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Mvc.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Optimization.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Razor.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.WebPages.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.WebPages.Razor.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\TesterBZDomainModel.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\WebGrease.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\TesterBZDomainModel.pdb
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\TesterBZDomainModel.dll.config
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Helpers.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Mvc.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Optimization.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.Razor.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.WebPages.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Web.WebPages.Razor.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Newtonsoft.Json.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Antlr3.Runtime.pdb
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\EntityFramework.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\EntityFramework.SqlServer.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.AI.Web.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.Razor.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\EntityFramework.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csprojAssemblyReference.cache
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csproj.CoreCompileInputs.cache
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csproj.CopyComplete
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\obj\Debug\TesterBZ.dll
+C:\Users\vladimir\source\repos\TesterBZ\TesterBZ\obj\Debug\TesterBZ.pdb
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ApplicationInsights.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\TesterBZ.dll.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\TesterBZ.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\TesterBZ.pdb
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\csc.exe
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\csc.exe.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\csc.rsp
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\csi.exe
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\csi.exe.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\csi.rsp
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.AppContext.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Console.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.IO.Compression.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.IO.Pipes.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.Claims.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Threading.Thread.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.ValueTuple.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XPath.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\vbc.exe
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\vbc.exe.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\vbc.rsp
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\VBCSCompiler.exe
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Antlr3.Runtime.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\EntityFramework.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\EntityFramework.SqlServer.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.Web.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Newtonsoft.Json.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Owin.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Helpers.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Mvc.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Optimization.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Razor.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.WebPages.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.WebPages.Razor.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\TesterBZDomainModel.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\WebGrease.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\TesterBZDomainModel.pdb
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\TesterBZDomainModel.dll.config
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Helpers.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Mvc.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Optimization.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.Razor.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.WebPages.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Web.WebPages.Razor.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Newtonsoft.Json.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Antlr3.Runtime.pdb
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\EntityFramework.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\EntityFramework.SqlServer.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.AI.Web.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.Razor.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\EntityFramework.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csprojAssemblyReference.cache
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csproj.CoreCompileInputs.cache
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\obj\Debug\TesterBZ.csproj.CopyComplete
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\obj\Debug\TesterBZ.dll
+C:\Users\AcerUser\Documents\Visual Studio 2017\Projects\TesterBZ\TesterBZ\TesterBZ\obj\Debug\TesterBZ.pdb

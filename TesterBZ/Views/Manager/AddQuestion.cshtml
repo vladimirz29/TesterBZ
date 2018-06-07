@@ -1,0 +1,44 @@
+﻿@model TesterBZ.Models.AddQuestionViewModel
+@{
+    ViewBag.Title = "Добавить вопрос";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2><a class="glyphicon glyphicon-backward btn btn-success" href="@(Url.Action("EditTest",new { id=Model.TestId }))"></a> @ViewBag.Title</h2>
+    </div>
+</div>
+<form action="@(Url.Action("AddQuestion"))" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="testId" value="@(Model.TestId)" />
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div class="text-center">
+                <label for="testName">Текст вопроса:</label>
+                <input type="text" name="questionText" id="testName" class="form-control" placeholder="Введите текст вопроса..." />
+                <br />
+                <label for="testName">Прикрепить изображение:</label>
+                <input type="file" name="questionImage" class="form-control" />
+                <br />
+                <label for="questionBlock">Блок, к которому относится вопрос:</label>
+                <select class="form-control" name="blockId">
+                    @foreach (var item in Model.Blocks)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                <br />
+                <label for="questionBlock">Какой тип ответов будет к этому вопросу:</label>
+                <select class="form-control" name="answerTypeId">
+                    @foreach (var item in Model.AnswerTypes)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+                <br />
+                <button type="submit" class="btn btn-primary">Добавить</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+

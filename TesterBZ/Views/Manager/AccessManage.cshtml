@@ -1,0 +1,41 @@
+﻿@model TesterBZ.Models.AccessManageViewModel
+@{
+    ViewBag.Title = "Управление доступом";
+}
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2><a class="glyphicon glyphicon-backward btn btn-success" href="@(Url.Action("Index"))"></a> @ViewBag.Title — @Model.TestName</h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>ФИО</th>
+                        <th>Доступ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{ int iterator = 1;}
+                    @foreach (var item in Model.UsersAccesses)
+                    {
+                        <tr>
+                            <td>@(iterator++)</td>
+                            <td>@item.FullName</td>
+                            <td>
+                                <a href="@(Url.Action("SetAccess",new { testId=Model.TestId, userId=item.UserId, value=!item.IsAvailable}))" class="btn btn-default">
+                                    @if (!item.IsAvailable)
+                                    {
+                                        <span class="glyphicon glyphicon-ok"> разрешить</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="glyphicon glyphicon-minus-sign"> запретить</span>
+                                    }
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
