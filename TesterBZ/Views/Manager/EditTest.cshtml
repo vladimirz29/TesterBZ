@@ -52,6 +52,12 @@
                 }
             </tbody>
         </table>
+        @if (Model.QuestionBlocks.Count==0)
+        {
+            <div class="text-center">
+                <h4>Нет доступных блоков</h4>
+            </div>
+        }
     </div>
 </div>
 <hr />
@@ -73,7 +79,9 @@
                 {
                     <tr>
                         <td>@(iterator++)</td>
-                        <td>@(item.QuestionText) @if(item.QuestionImage!=null){<img src="@(item.QuestionImage)" width="50" height="50"/>}</td>
+                        <td>@(item.QuestionText) @if (item.QuestionImage != null)
+                        {<img src="@(item.QuestionImage)" width="50" height="50" />}
+                        </td>
                         <td>@(item.QuestionBlockName)</td>
                         <td>
                             @*<a href="#"><span class="glyphicon glyphicon-upload btn btn-success"></span></a>
@@ -86,6 +94,12 @@
                 }
             </tbody>
         </table>
+        @if (Model.Questions.Count == 0)
+        {
+            <div class="text-center">
+                <h4>Нет доступных вопросов</h4>
+            </div>
+        }
     </div>
 </div>
 

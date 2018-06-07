@@ -211,13 +211,14 @@ namespace TesterBZ.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddQuestionBlock(int testId, string blockName)
+        public ActionResult AddQuestionBlock(int testId, string blockName, string annotation)
         {
             Context.QuestionBlocks.Add(new TesterBZDomainModel.Models.QuestionBlock
             {
                 TestId = testId,
                 Questions = new List<TesterBZDomainModel.Models.Question>(),
                 BlockName = blockName,
+                Annotation=annotation
             });
             Context.SaveChanges();
             return RedirectToAction("EditTest", new { id = testId });
@@ -231,15 +232,18 @@ namespace TesterBZ.Controllers
             {
                 BlockId=id,
                 BlockName= block.BlockName,
-                TestId=block.TestId
+                TestId=block.TestId,
+                Annotation=block.Annotation
             };
             return View(questionBlock);
         }
 
         [HttpPost]
-        public ActionResult EditBlock(int blockId,string blockName)
+        public ActionResult EditBlock(int blockId,string blockName,string annotation)
         {
-            Context.QuestionBlocks.FirstOrDefault(x => x.QuestionBlockId == blockId).BlockName = blockName;
+            var obj = Context.QuestionBlocks.FirstOrDefault(x => x.QuestionBlockId == blockId);
+            obj.BlockName = blockName;
+            obj.Annotation = annotation;
             Context.SaveChanges();
             return RedirectToAction("EditTest",new { id=blockId });
         }
@@ -279,5 +283,36 @@ namespace TesterBZ.Controllers
             return View(model);
         }
 
+        [HttpPost]
+        public ActionResult AddAnswer(int questionId,string answerText, HttpPostedFileBase answerImage, int answerWeight)
+        {
+            var path = Server.MapPath("/Content/AnswersImages");
+            if (!Directory.Exists(path))
+                Directory.CreateDirectory(path);
+            string filename = null;
+            if (answerImage != null)
+            {
+                filename = questionId+"o"+Guid.NewGuid().ToString() + ".jpg";
+                answerImage.SaveAs(path + "/" + filename);
+            }
+            Context.Answers.Add(new TesterBZDomainModel.Models.Answer
+            {
+                AnswerImage= answerImage == null ? null : "/Content/AnswersImages/" +filename,
+                AnswerText=answerText,
+                AnswerWeight=answerWeight,
+                QuestionId=questionId
+            });
+            Context.SaveChanges();
+            return RedirectToAction("QuestionAnswersList",new { id=questionId });
+        }
+
+        public ActionResult RemoveAnswer(int id)
+        {
+            var answ = Context.Answers.FirstOrDefault(x => x.AnswerId == id);
+            var qstnId = answ.QuestionId;
+            Context.Answers.Remove(answ);
+            Context.SaveChanges();
+            return RedirectToAction("QuestionAnswersList", new { id = qstnId });
+        }
     }
 }

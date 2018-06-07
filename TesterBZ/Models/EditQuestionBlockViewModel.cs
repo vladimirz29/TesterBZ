@@ -10,5 +10,6 @@ namespace TesterBZ.Models
         public int BlockId { get; set; }
         public string BlockName { get; set; }
         public int? TestId { get; set; }
+        public string Annotation { get; set; }
     }
 }

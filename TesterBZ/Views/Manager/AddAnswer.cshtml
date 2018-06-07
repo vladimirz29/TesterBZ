@@ -18,13 +18,18 @@
                 <label for="answerText">Текст ответа:</label>
                 <input type="text" name="answerText" id="answerText" class="form-control" placeholder="Введите текст ответа..." />
                 <br />
-                <label for="answerText">Изображение:</label>
+                <label for="answerImage">Изображение:</label>
                 <input type="file" name="answerImage" class="form-control" />
                 <br />
-                <label for="answerText">Вес ответа:</label>
-                <input type="number" value="0" min="-100" max="100" class="form-control"/>
+                <label for="answerWeight">Вес ответа*:</label>
+                <input type="number" id="answerWeight" name="answerWeight" value="0" min="-100" max="100" class="form-control"/>
                 <br />
                 <button type="submit" class="btn btn-primary">Добавить</button>
+                <br />
+                <br />
+                <div class="text-muted">
+                    <small>*Вес ответа - значение, относительно которого будет в нужных случаях браться стоимость того или иного ответа, а также по нему будут располагаться и остальные варианты ответов: чем ниже вес, тем левее или выше (ближе к началу) находится вариант ответа</small>
+                </div>
             </div>
         </div>
     </div>

@@ -149,7 +149,7 @@ namespace TesterBZ.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email+"@tester.bz", LastName=model.LastName, FirstName=model.FirstName };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email+"@tester.bz", LastName=model.LastName, FirstName=model.FirstName, Birthday=model.Birthday, Sex=model.Sex };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -21,6 +22,8 @@ namespace TesterBZDomainModel.Models
         public virtual List<TestAdmission> TestsAdmissions { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
+        public DateTime? Birthday { get; set; }
+        public int Sex { get; set; }
     }
 
 }

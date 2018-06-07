@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace TesterBZDomainModel.Models
@@ -73,6 +74,8 @@ namespace TesterBZDomainModel.Models
 
         public string LastName { get; set; }
         public string FirstName { get; set; }
+        public DateTime Birthday { get; set; }
+        public int Sex { get; set; }
     }
 
     public class ResetPasswordViewModel

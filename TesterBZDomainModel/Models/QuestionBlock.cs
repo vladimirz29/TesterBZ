@@ -15,5 +15,6 @@ namespace TesterBZDomainModel.Models
         public virtual List<Question> Questions { get; set; }
         public int? TestId { get; set; }
         public Test Test { get; set; }
+        public string Annotation { get; set; }
     }
 }

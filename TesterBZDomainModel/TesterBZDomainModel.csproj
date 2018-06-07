@@ -130,6 +130,14 @@
     <Compile Include="Migrations\201806070531269_QuestionBlockAndTestLink.Designer.cs">
       <DependentUpon>201806070531269_QuestionBlockAndTestLink.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806071805049_AddAnnotation.cs" />
+    <Compile Include="Migrations\201806071805049_AddAnnotation.Designer.cs">
+      <DependentUpon>201806071805049_AddAnnotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806071913280_AddBirthdayAndSex.cs" />
+    <Compile Include="Migrations\201806071913280_AddBirthdayAndSex.Designer.cs">
+      <DependentUpon>201806071913280_AddBirthdayAndSex.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Answer.cs" />
@@ -190,6 +198,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806070531269_QuestionBlockAndTestLink.resx">
       <DependentUpon>201806070531269_QuestionBlockAndTestLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806071805049_AddAnnotation.resx">
+      <DependentUpon>201806071805049_AddAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806071913280_AddBirthdayAndSex.resx">
+      <DependentUpon>201806071913280_AddBirthdayAndSex.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
