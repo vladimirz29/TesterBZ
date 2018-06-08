@@ -12,5 +12,6 @@ namespace TesterBZDomainModel.Models
         public string CalculationSchemeName { get; set; }
         public virtual List<QuestionBlock> QuestionsBlocks { get; set; }
         public virtual List<SchemeMask> SchemeMasks { get; set; }
+        public string CalculationRule { get; set; }
     }
 }

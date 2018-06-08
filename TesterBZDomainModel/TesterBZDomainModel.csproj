@@ -150,6 +150,10 @@
     <Compile Include="Migrations\201806081353250_SmallMessage.Designer.cs">
       <DependentUpon>201806081353250_SmallMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806081707117_AddCalculationRule.cs" />
+    <Compile Include="Migrations\201806081707117_AddCalculationRule.Designer.cs">
+      <DependentUpon>201806081707117_AddCalculationRule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Answer.cs" />
@@ -227,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806081353250_SmallMessage.resx">
       <DependentUpon>201806081353250_SmallMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806081707117_AddCalculationRule.resx">
+      <DependentUpon>201806081707117_AddCalculationRule.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

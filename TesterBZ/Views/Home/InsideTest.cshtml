@@ -130,7 +130,7 @@
 {
 
     <script>
-        var enableModal = @(Html.Raw((Model.Annotation!=null).ToString().ToLower()));
+        var enableModal = @(Html.Raw((!string.IsNullOrWhiteSpace(Model.Annotation)).ToString().ToLower()));
         var syncCode = '@(Html.Raw(Model.AnswerTypeSyncCode))';
         $(function () {
             if (enableModal)

@@ -20,7 +20,12 @@
                 <textarea name="annotation" id="annotation" class="form-control" placeholder="Введите аннотацию...">@(Model.Annotation)</textarea>
                 <br />
                 <label for="blockName">Расчетная схема:</label>
-                @*<input type="text" name="blockName" value="@(Model.BlockName)" id="blockName" class="form-control" placeholder="Введите наименование блока..." />*@
+                <select class="form-control" name="calculatingScheme">
+                    @foreach (var item in Model.Schemes)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
                 <br />
                 <button type="submit" class="btn btn-primary">Сохранить изменения</button>
             </div>

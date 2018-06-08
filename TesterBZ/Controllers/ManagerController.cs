@@ -233,17 +233,19 @@ namespace TesterBZ.Controllers
                 BlockId = id,
                 BlockName = block.BlockName,
                 TestId = block.TestId,
-                Annotation = block.Annotation
+                Annotation = block.Annotation,
+                Schemes=Context.CalculationSchemes.ToList().Select(x=>new KeyValuePair<int,string>(x.CalculationSchemeId,x.CalculationSchemeName)).ToList()
             };
             return View(questionBlock);
         }
 
         [HttpPost]
-        public ActionResult EditBlock(int blockId, string blockName, string annotation)
+        public ActionResult EditBlock(int blockId, string blockName, string annotation,int calculatingScheme)
         {
             var obj = Context.QuestionBlocks.FirstOrDefault(x => x.QuestionBlockId == blockId);
             obj.BlockName = blockName;
             obj.Annotation = annotation;
+            obj.CalculationSchemeId = calculatingScheme;
             Context.SaveChanges();
             return RedirectToAction("EditTest", new { id = blockId });
         }
@@ -368,7 +370,7 @@ namespace TesterBZ.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddMask(int schemeId, string mask, int value, string largeMessage,string smallMessage)
+        public ActionResult AddMask(int schemeId, string mask, int? value, string largeMessage,string smallMessage)
         {
             Context.SchemeMasks.Add(new TesterBZDomainModel.Models.SchemeMask
             {
@@ -378,6 +380,7 @@ namespace TesterBZ.Controllers
                 SmallMessage=smallMessage,
                 Value = value
             });
+            Context.SaveChanges();
             return RedirectToAction("EditScheme",new { id=schemeId });
         }
 

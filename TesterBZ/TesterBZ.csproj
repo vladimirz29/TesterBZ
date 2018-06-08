@@ -208,6 +208,7 @@
     <Compile Include="Models\AddQuestionBlockViewModel.cs" />
     <Compile Include="Models\AddQuestionViewModel.cs" />
     <Compile Include="Models\AvailableTestViewModel.cs" />
+    <Compile Include="Models\BlockResultViewModel.cs" />
     <Compile Include="Models\EditQuestionBlockViewModel.cs" />
     <Compile Include="Models\QuestionAnswersViewModel.cs" />
     <Compile Include="Models\QuestionAnswerViewModel.cs" />

@@ -194,3 +194,7 @@ C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\
 C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.AddSyncCode.resources
 C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.AddedCalculationScheme.resources
 C:\Users\vladi\OneDrive\Документы\Visual Studio 2017\Projects\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.SmallMessage.resources
+C:\Users\AcerUser\Documents\GitHub\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.AddSyncCode.resources
+C:\Users\AcerUser\Documents\GitHub\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.AddedCalculationScheme.resources
+C:\Users\AcerUser\Documents\GitHub\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.SmallMessage.resources
+C:\Users\AcerUser\Documents\GitHub\TesterBZ\TesterBZDomainModel\obj\Debug\TesterBZDomainModel.Migrations.AddCalculationRule.resources

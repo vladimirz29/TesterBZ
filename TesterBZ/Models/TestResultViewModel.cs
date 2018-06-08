@@ -10,5 +10,7 @@ namespace TesterBZ.Models
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public int Score { get; set; }
+
+        public List<BlockResultViewModel> BlocksResults { get; set; }
     }
 }
