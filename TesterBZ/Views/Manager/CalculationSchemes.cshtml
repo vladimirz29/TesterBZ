@@ -1,0 +1,42 @@
+﻿@model List<TesterBZDomainModel.Models.CalculationScheme>
+@{
+    ViewBag.Title = "Расчетные схемы";
+}
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h2><a class="glyphicon glyphicon-backward btn btn-success" href="@(Url.Action("Index"))"></a> @ViewBag.Title</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h4>Список <a href="@(Url.Action("AddCalculationScheme"))" class="btn glyphicon glyphicon-plus"></a></h4>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Наименование</th>
+                    <th>Кол-во масок</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int iterator = 1; }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@(iterator++)</td>
+                        <td>@item.CalculationSchemeName</td>
+                        <td>@item.SchemeMasks.Count</td>
+                        <td>
+                            <a href="@(Url.Action("EditScheme", "Manager", new { id = item.CalculationSchemeId }))" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span></a>
+                            <a href="@(Url.Action("RemoveScheme", "Manager", new { id = item.CalculationSchemeId }))" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

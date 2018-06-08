@@ -14,14 +14,14 @@ namespace TesterBZ.Controllers
     {
         public ActionResult Index()
         {
-            if (UserProfile.Roles.Any(x=>x.RoleId=="2"))
+            if (UserProfile.Roles.Any(x => x.RoleId == "2"))
                 return RedirectToAction("Index", "Manager");
             var model = new List<AvailableTestViewModel>();
-            model=UserProfile.TestsAdmissions.Select(x => new AvailableTestViewModel
+            model = UserProfile.TestsAdmissions.Select(x => new AvailableTestViewModel
             {
-                QuestionsCount=x.Test.Questions.Count,
-                TestId=x.TestId,
-                TestName=x.Test.TestName
+                QuestionsCount = x.Test.Questions.Count,
+                TestId = x.TestId,
+                TestName = x.Test.TestName
             }).ToList();
             return View(model);
         }
@@ -30,40 +30,54 @@ namespace TesterBZ.Controllers
         {
             var model = new TestResultViewModel
             {
-                LastName=UserProfile.LastName,
-                FirstName=UserProfile.FirstName,
-                Score=UserProfile.UserAnswers.Where(x=>x.Value!=null && x.Question.TestId==id).Sum(x=>x.Value).Value
+                LastName = UserProfile.LastName,
+                FirstName = UserProfile.FirstName,
+                Score = UserProfile.UserAnswers.Where(x => x.Value != null && x.Question.TestId == id).Sum(x => x.Value).Value
             };
             return View(model);
         }
 
-
-        public ActionResult InsideTest(int id, int question=1)
+        public string polz002(List<Question> questions)
         {
-            if (Context.Tests.FirstOrDefault(x => x.TestId == id).Questions.Count<question)
+            var userId = UserProfile.Id;
+            var values=Context.UserAnswers.Where(x => questions.Select(y => y.QuestionId).Contains(x.QuestionId) && x.ApplicationUser.Id == userId).ToList();
+            return "";
+        }
+
+        public ActionResult InsideTest(int id, int question = 1)
+        {
+            if (Context.Tests.FirstOrDefault(x => x.TestId == id).Questions.Count < question)
             {
-                return RedirectToAction("TestResults",new { id });
+                return RedirectToAction("TestResults", new { id });
             }
-            var qstn=Context.Tests.FirstOrDefault(x => x.TestId == id).Questions.Skip(question-1).FirstOrDefault();
+            var qstn = Context.Tests.FirstOrDefault(x => x.TestId == id).Questions.Skip(question - 1).FirstOrDefault();
+
             var model = new QuestionViewModel
             {
                 QuestionId = qstn.QuestionId,
                 QuestionText = qstn.QuestionText,
-                QuestionAnswers = qstn.Answers.OrderBy(x => x.AnswerWeight).Select(x => x.AnswerText).ToList(),
+                QuestionAnswers = qstn.Answers.OrderBy(x => x.AnswerWeight).Select(x => new QuestionAnswerViewModel {
+                    AnswerId=x.AnswerId,
+                    AnswerImage=x.AnswerImage,
+                    AnswerText=x.AnswerText,
+                    AnswerTypeId=x.Question.AnswerTypeId
+                }).ToList(),
                 QuestionNumber = question,
-                TotalQuestions = Context.Questions.Where(x => x.TestId == id).Count()
-            }; 
+                TotalQuestions = Context.Questions.Where(x => x.TestId == id).Count(),
+                Annotation = question == 1 ? qstn.QuestionBlock.Annotation : null,
+                AnswerTypeSyncCode = qstn.AnswerType.SyncCode
+            };
             return View(model);
         }
 
         public ActionResult Answer(int id, int question, int value)
         {
-            var name= User.Identity.Name;
-            Context.Users.FirstOrDefault(x=>x.UserName==name).UserAnswers.Add(new UserAnswer
+            var name = User.Identity.Name;
+            Context.Users.FirstOrDefault(x => x.UserName == name).UserAnswers.Add(new UserAnswer
             {
                 QuestionId = id,
-                
-                Value = value-2
+
+                Value = value - 2
             });
             Context.SaveChanges();
             return RedirectToAction("InsideTest", new { id = Context.Questions.FirstOrDefault(x => x.QuestionId == id).TestId, question = question + 1 });
@@ -74,11 +88,11 @@ namespace TesterBZ.Controllers
             var name = User.Identity.Name;
             Context.Users.FirstOrDefault(x => x.UserName == name).UserAnswers.Add(new UserAnswer
             {
-                QuestionId=Context.Questions.FirstOrDefault(x=>x.QuestionId==id).QuestionId,
-                Value=null
+                QuestionId = Context.Questions.FirstOrDefault(x => x.QuestionId == id).QuestionId,
+                Value = null
             });
             Context.SaveChanges();
-            return RedirectToAction("InsideTest",new { id=Context.Questions.FirstOrDefault(x=>x.QuestionId==id).TestId,question=question+1 });
+            return RedirectToAction("InsideTest", new { id = Context.Questions.FirstOrDefault(x => x.QuestionId == id).TestId, question = question + 1 });
         }
 
     }

@@ -138,14 +138,28 @@
     <Compile Include="Migrations\201806071913280_AddBirthdayAndSex.Designer.cs">
       <DependentUpon>201806071913280_AddBirthdayAndSex.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806080745254_AddSyncCode.cs" />
+    <Compile Include="Migrations\201806080745254_AddSyncCode.Designer.cs">
+      <DependentUpon>201806080745254_AddSyncCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806081302229_AddedCalculationScheme.cs" />
+    <Compile Include="Migrations\201806081302229_AddedCalculationScheme.Designer.cs">
+      <DependentUpon>201806081302229_AddedCalculationScheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806081353250_SmallMessage.cs" />
+    <Compile Include="Migrations\201806081353250_SmallMessage.Designer.cs">
+      <DependentUpon>201806081353250_SmallMessage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Answer.cs" />
     <Compile Include="Models\AnswerType.cs" />
+    <Compile Include="Models\CalculationScheme.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\QuestionBlock.cs" />
+    <Compile Include="Models\SchemeMask.cs" />
     <Compile Include="Models\Test.cs" />
     <Compile Include="Models\TestAdmission.cs" />
     <Compile Include="Models\UserAnswer.cs" />
@@ -204,6 +218,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806071913280_AddBirthdayAndSex.resx">
       <DependentUpon>201806071913280_AddBirthdayAndSex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806080745254_AddSyncCode.resx">
+      <DependentUpon>201806080745254_AddSyncCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806081302229_AddedCalculationScheme.resx">
+      <DependentUpon>201806081302229_AddedCalculationScheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806081353250_SmallMessage.resx">
+      <DependentUpon>201806081353250_SmallMessage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

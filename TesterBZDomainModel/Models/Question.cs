@@ -17,6 +17,6 @@ namespace TesterBZDomainModel.Models
         public int? QuestionBlockId { get; set; }
         public virtual QuestionBlock QuestionBlock { get; set; }
         public int? AnswerTypeId { get; set; }
-        public AnswerType AnswerType { get; set; }
+        public virtual AnswerType AnswerType { get; set; }
     }
 }

@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Добавить маску";
+}
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h2><a class="glyphicon glyphicon-backward btn btn-success" href="@(Url.Action("CalculationSchemes"))"></a> @ViewBag.Title</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="text-center">
+            <form action="" method="post">
+                <label for="mask">Маска:</label>
+                <input type="text" name="mask" id="mask" class="form-control" placeholder="Введите маску..." />
+                <br />
+                <label for="maskValue">Значение:</label>
+                <input type="text" name="maskValue" id="maskValue" class="form-control" placeholder="Введите значение..." />
+                <br />
+                <label for="maskValue">Короткое сообщение:</label>
+                <textarea class="form-control" name="smallMessage" placeholder="Введите короткое сообщение..."></textarea>
+                <br />
+                <label for="maskValue">Длинное сообщение:</label>
+                <textarea class="form-control" name="largeMessage" placeholder="Введите длинное сообщение..."></textarea>
+                <br />
+                <button type="submit" class="btn btn-primary">Добавить</button>
+            </form>
+        </div>
+        <p class="text-muted">
+            *Маска или значение забиваются по надобности. Маска имеет вид 0100110, значение - 5 (по надобности оставлять пустыми)
+        </p>
+    </div>
+</div>

@@ -125,8 +125,8 @@ namespace TesterBZ.Controllers
                     QuestionNumber = 0,
                     QuestionText = y.QuestionText,
                     QuestionImage = y.QuestionImage,
-                    QuestionBlockId=y.QuestionBlockId,
-                    QuestionBlockName=y.QuestionBlock.BlockName
+                    QuestionBlockId = y.QuestionBlockId,
+                    QuestionBlockName = y.QuestionBlock.BlockName
                 }).ToList(),
                 QuestionBlocks = x.QuestionsBlocks.ToList()
             }).FirstOrDefault();
@@ -192,7 +192,7 @@ namespace TesterBZ.Controllers
                 Answers = new List<TesterBZDomainModel.Models.Answer>(),
                 AnswerTypeId = answerTypeId,
                 QuestionBlockId = blockId,
-                QuestionImage = questionImage==null?null:"/Content/QuestionsImages/" + filename,
+                QuestionImage = questionImage == null ? null : "/Content/QuestionsImages/" + filename,
                 QuestionText = questionText,
                 TestId = testId
             });
@@ -218,7 +218,7 @@ namespace TesterBZ.Controllers
                 TestId = testId,
                 Questions = new List<TesterBZDomainModel.Models.Question>(),
                 BlockName = blockName,
-                Annotation=annotation
+                Annotation = annotation
             });
             Context.SaveChanges();
             return RedirectToAction("EditTest", new { id = testId });
@@ -230,28 +230,28 @@ namespace TesterBZ.Controllers
             var block = Context.QuestionBlocks.FirstOrDefault(x => x.QuestionBlockId == id);
             var questionBlock = new EditQuestionBlockViewModel
             {
-                BlockId=id,
-                BlockName= block.BlockName,
-                TestId=block.TestId,
-                Annotation=block.Annotation
+                BlockId = id,
+                BlockName = block.BlockName,
+                TestId = block.TestId,
+                Annotation = block.Annotation
             };
             return View(questionBlock);
         }
 
         [HttpPost]
-        public ActionResult EditBlock(int blockId,string blockName,string annotation)
+        public ActionResult EditBlock(int blockId, string blockName, string annotation)
         {
             var obj = Context.QuestionBlocks.FirstOrDefault(x => x.QuestionBlockId == blockId);
             obj.BlockName = blockName;
             obj.Annotation = annotation;
             Context.SaveChanges();
-            return RedirectToAction("EditTest",new { id=blockId });
+            return RedirectToAction("EditTest", new { id = blockId });
         }
 
         [HttpGet]
         public ActionResult EditQuestion(int id)
         {
-            
+
             return View();
         }
 
@@ -259,16 +259,16 @@ namespace TesterBZ.Controllers
         {
             var model = Context.Questions.Where(x => x.QuestionId == id).Select(x => new QuestionAnswersViewModel
             {
-                TestId=x.TestId,
-                QuestionName=x.QuestionText,
-                QuestionImage=x.QuestionImage,
-                QuestionId=x.QuestionId,
-                QuestionAnswers=x.Answers.Select(y=>new QuestionAnswerViewModel
+                TestId = x.TestId,
+                QuestionName = x.QuestionText,
+                QuestionImage = x.QuestionImage,
+                QuestionId = x.QuestionId,
+                QuestionAnswers = x.Answers.Select(y => new QuestionAnswerViewModel
                 {
-                    AnswerId=y.AnswerId,
-                    AnswerImage=y.AnswerImage,
-                    AnswerText=y.AnswerText,
-                    AnswerTypeId=x.AnswerTypeId
+                    AnswerId = y.AnswerId,
+                    AnswerImage = y.AnswerImage,
+                    AnswerText = y.AnswerText,
+                    AnswerTypeId = x.AnswerTypeId
                 }).ToList()
             }).FirstOrDefault();
             return View(model);
@@ -278,13 +278,13 @@ namespace TesterBZ.Controllers
         {
             var model = new AddAnswerViewModel
             {
-                QuestionId=questionId
+                QuestionId = questionId
             };
             return View(model);
         }
 
         [HttpPost]
-        public ActionResult AddAnswer(int questionId,string answerText, HttpPostedFileBase answerImage, int answerWeight)
+        public ActionResult AddAnswer(int questionId, string answerText, HttpPostedFileBase answerImage, int answerWeight)
         {
             var path = Server.MapPath("/Content/AnswersImages");
             if (!Directory.Exists(path))
@@ -292,18 +292,18 @@ namespace TesterBZ.Controllers
             string filename = null;
             if (answerImage != null)
             {
-                filename = questionId+"o"+Guid.NewGuid().ToString() + ".jpg";
+                filename = questionId + "o" + Guid.NewGuid().ToString() + ".jpg";
                 answerImage.SaveAs(path + "/" + filename);
             }
             Context.Answers.Add(new TesterBZDomainModel.Models.Answer
             {
-                AnswerImage= answerImage == null ? null : "/Content/AnswersImages/" +filename,
-                AnswerText=answerText,
-                AnswerWeight=answerWeight,
-                QuestionId=questionId
+                AnswerImage = answerImage == null ? null : "/Content/AnswersImages/" + filename,
+                AnswerText = answerText,
+                AnswerWeight = answerWeight,
+                QuestionId = questionId
             });
             Context.SaveChanges();
-            return RedirectToAction("QuestionAnswersList",new { id=questionId });
+            return RedirectToAction("QuestionAnswersList", new { id = questionId });
         }
 
         public ActionResult RemoveAnswer(int id)
@@ -314,5 +314,72 @@ namespace TesterBZ.Controllers
             Context.SaveChanges();
             return RedirectToAction("QuestionAnswersList", new { id = qstnId });
         }
+
+        public ActionResult CalculationSchemes()
+        {
+            var list = Context.CalculationSchemes.ToList();
+            return View(list);
+        }
+
+        public ActionResult RemoveScheme(int id)
+        {
+            Context.SchemeMasks.RemoveRange(Context.SchemeMasks.Where(x => x.CalculationSchemeId == id).ToList());
+            Context.CalculationSchemes.Remove(Context.CalculationSchemes.FirstOrDefault(x => x.CalculationSchemeId == id));
+            Context.SaveChanges();
+            return RedirectToAction("CalculationSchemes");
+        }
+
+        [HttpGet]
+        public ActionResult AddCalculationScheme()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddCalculationScheme(string schemeName)
+        {
+            Context.CalculationSchemes.Add(new TesterBZDomainModel.Models.CalculationScheme
+            {
+                CalculationSchemeName = schemeName,
+                QuestionsBlocks = new List<TesterBZDomainModel.Models.QuestionBlock>(),
+                SchemeMasks = new List<TesterBZDomainModel.Models.SchemeMask>()
+            });
+            Context.SaveChanges();
+            return RedirectToAction("CalculationSchemes");
+        }
+
+        public ActionResult EditScheme(int id)
+        {
+            var model = Context.CalculationSchemes.FirstOrDefault(x => x.CalculationSchemeId == id);
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult EditScheme(int schemeId, string schemeName)
+        {
+            Context.CalculationSchemes.FirstOrDefault(x => x.CalculationSchemeId == schemeId).CalculationSchemeName = schemeName;
+            Context.SaveChanges();
+            return RedirectToAction("CalculationSchemes");
+        }
+
+        public ActionResult AddMask(int schemeId)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddMask(int schemeId, string mask, int value, string largeMessage,string smallMessage)
+        {
+            Context.SchemeMasks.Add(new TesterBZDomainModel.Models.SchemeMask
+            {
+                CalculationSchemeId = schemeId,
+                Mask = mask,
+                LargeMessage = largeMessage,
+                SmallMessage=smallMessage,
+                Value = value
+            });
+            return RedirectToAction("EditScheme",new { id=schemeId });
+        }
+
     }
 }

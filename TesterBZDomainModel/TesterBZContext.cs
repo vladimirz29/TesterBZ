@@ -28,5 +28,7 @@ namespace TesterBZDomainModel
         public virtual DbSet<TestAdmission> TestsAdmissions { get; set; }
         public virtual DbSet<QuestionBlock> QuestionBlocks { get; set; }
         public virtual DbSet<AnswerType> AnswerTypes { get; set; }
+        public virtual DbSet<CalculationScheme> CalculationSchemes { get; set; }
+        public virtual DbSet<SchemeMask> SchemeMasks { get; set; }
     }
 }

@@ -16,5 +16,7 @@ namespace TesterBZDomainModel.Models
         public int? TestId { get; set; }
         public Test Test { get; set; }
         public string Annotation { get; set; }
+        public int? CalculationSchemeId { get; set; }
+        public virtual CalculationScheme CalculationScheme { get; set; }
     }
 }

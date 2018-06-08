@@ -10,6 +10,7 @@ namespace TesterBZDomainModel.Models
     {
         public int AnswerTypeId { get; set; }
         public string AnswerTypeName { get; set; }
-        public List<Question> Questions { get; set; }
+        public string SyncCode { get; set; }
+        public virtual List<Question> Questions { get; set; }
     }
 }

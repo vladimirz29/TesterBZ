@@ -291,6 +291,10 @@
     <Content Include="Views\Manager\EditBlock.cshtml" />
     <Content Include="Views\Manager\QuestionAnswersList.cshtml" />
     <Content Include="Views\Manager\AddAnswer.cshtml" />
+    <Content Include="Views\Manager\CalculationSchemes.cshtml" />
+    <Content Include="Views\Manager\AddCalculationScheme.cshtml" />
+    <Content Include="Views\Manager\EditScheme.cshtml" />
+    <Content Include="Views\Manager\AddMask.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

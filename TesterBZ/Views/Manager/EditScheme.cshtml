@@ -1,0 +1,55 @@
+﻿@model TesterBZDomainModel.Models.CalculationScheme
+@{
+    ViewBag.Title = "Редактировать схему";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <h2><a class="glyphicon glyphicon-backward btn btn-success" href="@(Url.Action("CalculationSchemes"))"></a> @ViewBag.Title</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="text-center">
+            <form action="" method="post">
+                <input type="hidden" value="@Model.CalculationSchemeId" name="schemeId" />
+                <label for="blockName">Наименование:</label>
+                <input type="text" name="schemeName" value="@Model.CalculationSchemeName" id="blockName" class="form-control" placeholder="Введите наименование..." />
+                <br />
+                <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h4>Маски <a href="@(Url.Action("AddMask",new { schemeId=Model.CalculationSchemeId }))" class="btn glyphicon glyphicon-plus"></a></h4>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Маска</th>
+                    <th>Значение</th>
+                    <th>Короткое сообщение</th>
+                    <th>Длинное сообщение</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int iterator = 1;}
+                @foreach (var item in Model.SchemeMasks)
+                {
+                <tr>
+                    <td>@(iterator++)</td>
+                    <td>@item.Mask</td>
+                    <td>@item.Value</td>
+                    <td>@item.SmallMessage</td>
+                    <td>@item.LargeMessage</td>
+                    <td>Добавить кнопки</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
